@@ -1,0 +1,15 @@
+{% extends 'base.html' %} {% block content %}
+
+<form action="#" method="POST" enctype="multipart/form-data">
+  {% csrf_token %} {{ form.as_p}}
+  <input type="submit" value="From Textbox" name="text" />
+  <input type="submit" value="From URL" name="url" />
+  <input type="submit" value="From File" name="file" />
+</form>
+{% if input_data %}
+<h3>Input:</h3>
+<p>{{input_data}}</p>
+{% endif %} {% if result_data %}
+<h3>Result:</h3>
+<p>{{result_data}}</p>
+{% endif %} {% endblock content %}
