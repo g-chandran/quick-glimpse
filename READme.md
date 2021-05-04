@@ -20,3 +20,6 @@ python3 manage.py runserver
 ```
 
 5. Now, you can see the localhost is created. Go to `localhost:8080` to see the application in action. Use the any given input formats to get the output on the screen.
+
+# Demo
+[![Demo Video](http://img.youtube.com/vi/LBQqtbNnNC4/0.jpg)](https://www.youtube.com/watch?v=LBQqtbNnNC4)
